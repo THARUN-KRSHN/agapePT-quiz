@@ -11,7 +11,6 @@ const likertScaleMapping: { [key: string]: number } = {
   // Parental Perception & Learning Style Ratings
   'Not familiar at all': 1,
   'Somewhat familiar': 2,
-  'Neutral': 3,
   'Fairly familiar': 4,
   'Very familiar': 5,
   'Never': 1,
