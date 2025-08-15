@@ -295,7 +295,7 @@ export async function POST(request: Request) {
     const allQuestions = await prisma.question.findMany();
     const questionMap = new Map(allQuestions.map(q => [q.id, q.text]));
 
-    const quizResponsesFormatted = responses.map(r => {
+    const quizResponsesFormatted = responses.map((r: { questionId: number; response: string }) => {
       const questionText = questionMap.get(r.questionId) || 'Unknown Question';
       return `Q: ${questionText}\n  A: ${r.response}`;
     }).join('\n');
