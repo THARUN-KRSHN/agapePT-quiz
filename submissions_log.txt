@@ -1286,3 +1286,83 @@ Simplified Result Summary:
 Parental Perception: Shows some awareness and value for personality development. Child's Personality Tendency: Primarily **CONSCIENTIOUSNESS**. Preferred Learning Style: Strong inclination towards **CONCRETE PRACTICAL** learning. Also shows strengths in **KINESTHETIC** approaches. Recommended Development Approach: Consider programs that emphasize hands-on activities and real-life applications by utilizing auditory methods and kinesthetic activities.
 
 Submission Date: 15/8/2025, 6:25:04 pm
+Student Name: Tharun
+Age: 17
+
+Quiz Responses:
+Q: I have learned this way since I was young.
+  A: Neutral
+Q: I am creative and like artistic or imaginative experiences.
+  A: Agree
+Q: I make plans and stick to them.
+  A: Agree
+Q: Do you believe that personality development classes can play significant role in shaping your child's future success?
+  A: Agree
+Q: I understand ideas better when I can discuss them with others.
+  A: Neutral
+Q: I often think about “the big picture” rather than focusing only on details.
+  A: Strongly Agree
+Q: I like to cooperate and get along with others.
+  A: Neutral
+Q: How often do you come across any information regarding personality development classes?
+  A: Frequently
+Q: I learn best when I can relate the material to real-life situations.
+  A: Strongly Agree
+Q: I am kind and considerate to almost everyone.
+  A: Neutral
+Q: I am curious about many different things.
+  A: Agree
+Q: My personality affects how I approach learning.
+  A: Strongly Agree
+Q: I remember things better when I see diagrams, charts, or visual aids.
+  A: Agree
+Q: I do things carefully and completely.
+  A: Strongly Agree
+Q: How important do you think personality development classes are for your child's overall growth and development?
+  A: Fairly important
+Q: I have a lot of energy and make things exciting.
+  A: Strongly Agree
+
+Scores:
+{
+  "familiarity": 0,
+  "exposure": 4,
+  "importance": 0,
+  "belief": 4,
+  "investment_belief": 0,
+  "likelihood_to_invest": 0,
+  "prioritization": 0,
+  "positive_impact_belief": 0,
+  "necessity_belief": 0,
+  "influencing_factors": 0,
+  "extraversion": 5,
+  "agreeableness": 6,
+  "conscientiousness": 9,
+  "neuroticism": 0,
+  "openness": 8,
+  "social_verbal": 3,
+  "independent": 0,
+  "kinesthetic": 5,
+  "visual": 13,
+  "auditory": 6,
+  "active_experimentation": 3,
+  "situated_learning": 5,
+  "abstract_conceptualization": 0,
+  "sequential_thinking": 0,
+  "global_thinking": 5,
+  "analytical_thinking": 0,
+  "narrative_learning": 0,
+  "stability": 3,
+  "environmental_influence": 0,
+  "flexibility": 0,
+  "trait_influence": 5,
+  "abstract_theoretical": 0,
+  "concrete_practical": 10,
+  "reflective": 0,
+  "active": 3
+}
+
+Simplified Result Summary:
+Parental Perception: May need more information on personality development programs. Child's Personality Tendency: Primarily **CONSCIENTIOUSNESS**. Preferred Learning Style: Strong inclination towards **CONCRETE PRACTICAL** learning. Also shows strengths in **VISUAL** approaches. Recommended Development Approach: Consider programs that foster social interaction and collaborative learning and emphasize hands-on activities and real-life applications by utilizing visual aids and auditory methods and kinesthetic activities.
+
+Submission Date: 15/8/2025, 9:17:38 pm

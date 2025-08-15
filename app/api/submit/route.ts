@@ -21,11 +21,17 @@ const likertScaleMapping: { [key: string]: number } = {
   'Almost Always': 5,
   'Not important at all': 1,
   'Somewhat important': 2,
+
+  // Personality Traits & Learning Style Ratings (Strongly Disagree to Strongly Agree)
   'Strongly Disagree': 1,
   'Disagree': 2,
+  'Neutral': 3,
   'Agree': 4,
   'Strongly Agree': 5,
+
+  // Additional for parental perception only
   'Not likely at all': 1,
+  'Somewhat Likely': 2,
   'Fairly likely': 4,
   'Very likely': 5,
 };
