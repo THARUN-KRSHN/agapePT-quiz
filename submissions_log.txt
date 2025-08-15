@@ -1,0 +1,1288 @@
+
+--- Submission ID: 1 ---
+Name: tharun
+Age: 10
+Responses: [{"questionId":26,"response":"Very likely"},{"questionId":23,"response":"Very important"},{"questionId":28,"response":"Strongly Agree"},{"questionId":19,"response":"Strongly Agree"},{"questionId":30,"response":"Child's interest"},{"questionId":25,"response":"Strongly agree"},{"questionId":18,"response":"Strongly Agree"},{"questionId":27,"response":"Strongly Agree"},{"questionId":10,"response":"Child's interest"},{"questionId":16,"response":"Very likely"},{"questionId":2,"response":"Frequently"},{"questionId":17,"response":"Agree"},{"questionId":6,"response":"Fairly likely"},{"questionId":24,"response":"Agree"},{"questionId":14,"response":"Agree"},{"questionId":9,"response":"Agree"},{"questionId":22,"response":"Almost Always"},{"questionId":11,"response":"Neutral"},{"questionId":29,"response":"Strongly Agree"},{"questionId":3,"response":"Very important"},{"questionId":1,"response":"Very familiar"},{"questionId":5,"response":"Strongly agree"},{"questionId":4,"response":"Strongly Agree"},{"questionId":15,"response":"Strongly agree"},{"questionId":7,"response":"Strongly Agree"},{"questionId":20,"response":"Child's interest"},{"questionId":8,"response":"Strongly Agree"},{"questionId":12,"response":"Almost Always"},{"questionId":21,"response":"Very familiar"},{"questionId":13,"response":"Very important"}]
+Scores: {"familiarity":13,"exposure":14,"importance":0,"belief":13,"investment_belief":0,"likelihood_to_invest":14,"prioritization":14,"positive_impact_belief":15,"necessity_belief":14,"influencing_factors":3}
+Dominant Type: Your feedback provides valuable insights into your perspective on personality development programs for children.
+
+You demonstrate a high level of familiarity with personality development classes and their potential benefits. You frequently encounter information regarding personality development classes, indicating an active interest or exposure to relevant discussions. You may not perceive personality development classes as highly important for your child's overall growth. You are confident that personality development classes can significantly shape your child's future success and bring out their best. You are very likely to invest in personality development classes for your child, viewing them as a necessary and valuable expenditure. You view personality development classes as a necessity in today's competitive world for fostering confidence and self-assurance in your child. Your decision to enroll your child would be influenced by factors such as instructor quality, curriculum content, cost, accessibility, peer recommendations, and your child's interest. Overall, your responses suggest a thoughtful consideration of your child's development and the role of external programs.
+Calculation Steps: Scores calculated based on Likert scale mapping and aggregated by question type. Personalized insight generated based on score thresholds.
+Submission Date: Fri Aug 15 2025 13:13:49 GMT+0530 (India Standard Time)
+
+--- Submission ID: 2 ---
+Name: hari
+Age: 15
+Responses: [{"questionId":6,"response":"Very likely"},{"questionId":18,"response":"Strongly Agree"},{"questionId":14,"response":"Strongly Agree"},{"questionId":9,"response":"Strongly Agree"},{"questionId":15,"response":"Agree"},{"questionId":10,"response":"Other"},{"questionId":26,"response":"Fairly likely"},{"questionId":28,"response":"Strongly Agree"},{"questionId":25,"response":"Strongly agree"},{"questionId":4,"response":"Strongly Agree"},{"questionId":29,"response":"Strongly Agree"},{"questionId":2,"response":"Almost Always"},{"questionId":11,"response":"Fairly familiar"},{"questionId":30,"response":"Child's interest"},{"questionId":23,"response":"Very important"},{"questionId":3,"response":"Very important"},{"questionId":21,"response":"Fairly familiar"},{"questionId":16,"response":"Very likely"},{"questionId":22,"response":"Frequently"},{"questionId":19,"response":"Strongly Agree"}]
+Scores: {"familiarity":8,"exposure":9,"importance":0,"belief":10,"investment_belief":4,"likelihood_to_invest":14,"prioritization":0,"positive_impact_belief":10,"necessity_belief":15,"influencing_factors":2}
+Dominant Type: Your feedback provides valuable insights into your perspective on personality development programs for children.
+
+You demonstrate a high level of familiarity with personality development classes and their potential benefits. You frequently encounter information regarding personality development classes, indicating an active interest or exposure to relevant discussions. You may not perceive personality development classes as highly important for your child's overall growth. You are confident that personality development classes can significantly shape your child's future success and bring out their best. You are very likely to invest in personality development classes for your child, viewing them as a necessary and valuable expenditure. You view personality development classes as a necessity in today's competitive world for fostering confidence and self-assurance in your child. Your decision to enroll your child would be influenced by factors such as instructor quality, curriculum content, cost, accessibility, peer recommendations, and your child's interest. Overall, your responses suggest a thoughtful consideration of your child's development and the role of external programs.
+Calculation Steps: Scores calculated based on Likert scale mapping and aggregated by question type. Personalized insight generated based on score thresholds.
+Submission Date: Fri Aug 15 2025 13:22:12 GMT+0530 (India Standard Time)
+
+--- Submission ID: 1 ---
+Name: akhil
+Age: 20
+Responses: [{"questionId":26,"response":"Strongly Agree"}]
+Scores: {"familiarity":0,"exposure":0,"importance":0,"belief":0,"investment_belief":0,"likelihood_to_invest":0,"prioritization":0,"positive_impact_belief":0,"necessity_belief":0,"influencing_factors":0,"extraversion":0,"agreeableness":0,"conscientiousness":0,"neuroticism":0,"openness":0,"social_verbal":0,"independent":0,"kinesthetic":0,"visual":0,"auditory":0,"active_experimentation":10,"situated_learning":0,"abstract_conceptualization":0,"sequential_thinking":0,"global_thinking":0,"analytical_thinking":0,"narrative_learning":0,"stability":0,"environmental_influence":0,"flexibility":0,"trait_influence":0,"active":null}
+Dominant Type: ### Your Parental Perception Insight
+
+You may be less familiar with personality development classes, suggesting an opportunity to learn more. You may not perceive personality development classes as highly important for your child's overall growth. Overall, your responses suggest a thoughtful consideration of your child's development and the role of external programs.
+
+### Your Personality Traits Insight
+
+You tend to be outgoing and enjoy social interactions. You likely gain energy from being around people and are enthusiastic in your approach.
+
+### Your Preferred Learning Styles
+
+No distinct learning style preferences were identified, suggesting an adaptable approach to learning.
+
+### Your Learning Approach Awareness
+
+You have a mixed perception regarding the origins and adaptability of your learning style.
+
+
+Calculation Steps: Scores calculated based on Likert scale mapping and aggregated by question type and category. Personalized insights generated for Parental Perception, Personality Traits, Learning Styles, and Learning Approach Awareness.
+Submission Date: Fri Aug 15 2025 13:38:24 GMT+0530 (India Standard Time)
+Student Name: akhil
+Age: 20
+
+Quiz Responses:
+Q: I enjoy listening to lectures, podcasts, or explanations more than reading.
+  A: Agree
+Q: I like to cooperate and get along with others.
+  A: Agree
+Q: I am outgoing and enjoy being with people.
+  A: Agree
+Q: I like to make step-by-step plans before starting a task.
+  A: Agree
+Q: You think that investing in personality development classes for your child is important .
+  A: Strongly agree
+Q: I understand ideas better when I can discuss them with others.
+  A: Strongly Agree
+Q: I am creative and like artistic or imaginative experiences.
+  A: Neutral
+Q: How familiar are you with the personality development classes that can help your child improve their confidence, communication skills, and overall personality?
+  A: Very familiar
+Q: My teachers or learning environments have shaped how I prefer to learn.
+  A: Agree
+Q: I learn best when I can relate the material to real-life situations.
+  A: Strongly Agree
+Q: I worry a lot.
+  A: Agree
+Q: I get nervous easily.
+  A: Agree
+Q: Do you believe that personality development classes can play significant role in shaping your child's future success?
+  A: Strongly Agree
+Q: I make plans and stick to them.
+  A: Agree
+Q: I am kind and considerate to almost everyone.
+  A: Agree
+Q: I am curious about many different things.
+  A: Agree
+
+Scores:
+{
+  "familiarity": 5,
+  "exposure": 0,
+  "importance": 0,
+  "belief": 5,
+  "investment_belief": 0,
+  "likelihood_to_invest": 0,
+  "prioritization": 0,
+  "positive_impact_belief": 0,
+  "necessity_belief": 0,
+  "influencing_factors": 0,
+  "extraversion": 4,
+  "agreeableness": 8,
+  "conscientiousness": 4,
+  "neuroticism": 8,
+  "openness": 7,
+  "social_verbal": 5,
+  "independent": 0,
+  "kinesthetic": 5,
+  "visual": 0,
+  "auditory": 18,
+  "active_experimentation": 5,
+  "situated_learning": 5,
+  "abstract_conceptualization": 0,
+  "sequential_thinking": 4,
+  "global_thinking": 0,
+  "analytical_thinking": 0,
+  "narrative_learning": 0,
+  "stability": 0,
+  "environmental_influence": 4,
+  "flexibility": 0,
+  "trait_influence": 0,
+  "abstract_theoretical": 0,
+  "concrete_practical": 10,
+  "reflective": 0,
+  "active": 5
+}
+
+Simplified Result Summary:
+Parental Perception: Shows some awareness and value for personality development. Child's Personality Tendency: Primarily **AGREEABLENESS**. Preferred Learning Style: Strong inclination towards **CONCRETE PRACTICAL** learning. Also shows strengths in **AUDITORY** approaches. Recommended Development Approach: Consider programs that foster social interaction and collaborative learning and emphasize hands-on activities and real-life applications by utilizing auditory methods and kinesthetic activities.
+
+Submission Date: 15/8/2025, 1:49:28 pm
+Student Name: akhil
+Age: 20
+
+Quiz Responses:
+Q: I am outgoing and enjoy being with people.
+  A: Strongly Agree
+Q: My personality affects how I approach learning.
+  A: Strongly Agree
+Q: I do things carefully and completely.
+  A: Strongly Agree
+Q: I adjust my learning style depending on the subject or task.
+  A: Strongly Agree
+Q: You do believe that the personality development classes can bring out the best in your child.
+  A: Strongly Agree
+Q: I worry a lot.
+  A: Strongly Agree
+Q: I prefer to work alone and figure things out by myself before sharing.
+  A: Strongly Agree
+Q: I remember things better when I see diagrams, charts, or visual aids.
+  A: Strongly Agree
+Q: How familiar are you with the personality development classes that can help your child improve their confidence, communication skills, and overall personality?
+  A: Very familiar
+Q: I am curious about many different things.
+  A: Strongly Agree
+Q: I like to make step-by-step plans before starting a task.
+  A: Agree
+Q: I am creative and like artistic or imaginative experiences.
+  A: Strongly Agree
+Q: I often think about “the big picture” rather than focusing only on details.
+  A: Strongly Agree
+Q: How often do you come across any information regarding personality development classes?
+  A: Almost Always
+Q: Personality development classes are a necessity in this highly competitive world. It will make your child more confident and self assured.
+  A: Strongly Agree
+Q: You think that investing in personality development classes for your child is important .
+  A: Strongly agree
+
+Scores:
+{
+  "familiarity": 5,
+  "exposure": 5,
+  "importance": 0,
+  "belief": 0,
+  "investment_belief": 0,
+  "likelihood_to_invest": 0,
+  "prioritization": 0,
+  "positive_impact_belief": 5,
+  "necessity_belief": 5,
+  "influencing_factors": 0,
+  "extraversion": 5,
+  "agreeableness": 0,
+  "conscientiousness": 5,
+  "neuroticism": 5,
+  "openness": 10,
+  "social_verbal": 0,
+  "independent": 5,
+  "kinesthetic": 0,
+  "visual": 15,
+  "auditory": 0,
+  "active_experimentation": 0,
+  "situated_learning": 0,
+  "abstract_conceptualization": 0,
+  "sequential_thinking": 4,
+  "global_thinking": 5,
+  "analytical_thinking": 0,
+  "narrative_learning": 0,
+  "stability": 0,
+  "environmental_influence": 0,
+  "flexibility": 5,
+  "trait_influence": 5,
+  "abstract_theoretical": 0,
+  "concrete_practical": 0,
+  "reflective": 10,
+  "active": 0
+}
+
+Simplified Result Summary:
+Parental Perception: Shows some awareness and value for personality development. Child's Personality Tendency: Primarily **OPENNESS**. Preferred Learning Style: Strong inclination towards **VISUAL** learning. Also shows strengths in **REFLECTIVE** approaches. Recommended Development Approach: Consider programs that utilizing visual aids.
+
+Submission Date: 15/8/2025, 1:53:03 pm
+Student Name: akhil
+Age: 20
+
+Quiz Responses:
+
+
+Scores:
+{
+  "familiarity": 0,
+  "exposure": 0,
+  "importance": 0,
+  "belief": 0,
+  "investment_belief": 0,
+  "likelihood_to_invest": 0,
+  "prioritization": 0,
+  "positive_impact_belief": 0,
+  "necessity_belief": 0,
+  "influencing_factors": 0,
+  "extraversion": 0,
+  "agreeableness": 0,
+  "conscientiousness": 0,
+  "neuroticism": 0,
+  "openness": 0,
+  "social_verbal": 0,
+  "independent": 0,
+  "kinesthetic": 0,
+  "visual": 0,
+  "auditory": 0,
+  "active_experimentation": 0,
+  "situated_learning": 0,
+  "abstract_conceptualization": 0,
+  "sequential_thinking": 0,
+  "global_thinking": 0,
+  "analytical_thinking": 0,
+  "narrative_learning": 0,
+  "stability": 0,
+  "environmental_influence": 0,
+  "flexibility": 0,
+  "trait_influence": 0,
+  "abstract_theoretical": 0,
+  "concrete_practical": 0,
+  "reflective": 0,
+  "active": 0
+}
+
+Simplified Result Summary:
+Parental Perception: May need more information on personality development programs. Child's Personality Tendency: A balanced blend of traits. Preferred Learning Style: Adaptable and shows no single dominant style. Recommended Development Approach: Consider programs that offer a balanced and adaptable learning environment.
+
+Submission Date: 15/8/2025, 1:55:47 pm
+Student Name: tharun
+Age: 4
+
+Quiz Responses:
+Q: How familiar are you with the personality development classes that can help your child improve their confidence, communication skills, and overall personality?
+  A: Not familiar at all
+Q: I learn best when I can see and touch real objects or do practical activities.
+  A: Strongly Agree
+Q: I like experimenting and trying things out to see what works.
+  A: Strongly Agree
+Q: I do things carefully and completely.
+  A: Strongly Agree
+Q: You do believe that the personality development classes can bring out the best in your child.
+  A: Agree
+Q: I worry a lot.
+  A: Strongly Agree
+Q: I enjoy exploring abstract theories and concepts, even without direct application.
+  A: Agree
+Q: I like to make step-by-step plans before starting a task.
+  A: Strongly Agree
+Q: Personality development classes are a necessity in this highly competitive world. It will make your child more confident and self assured.
+  A: Disagree
+Q: I adjust my learning style depending on the subject or task.
+  A: Agree
+Q: You would prioritize spending on personality development classes over other extra curricular activities for your child
+  A: Disagree
+Q: How likely are you to invest in personality development classes for your child?
+  A: Fairly likely
+Q: I prefer to work alone and figure things out by myself before sharing.
+  A: Agree
+Q: I prefer facts and data over opinions or emotions when learning.
+  A: Neutral
+Q: I am outgoing and enjoy being with people.
+  A: Strongly Agree
+Q: I often think about “the big picture” rather than focusing only on details.
+  A: Agree
+
+Scores:
+{
+  "familiarity": 1,
+  "exposure": 0,
+  "importance": 0,
+  "belief": 0,
+  "investment_belief": 0,
+  "likelihood_to_invest": 4,
+  "prioritization": 2,
+  "positive_impact_belief": 4,
+  "necessity_belief": 2,
+  "influencing_factors": 0,
+  "extraversion": 5,
+  "agreeableness": 0,
+  "conscientiousness": 5,
+  "neuroticism": 5,
+  "openness": 0,
+  "social_verbal": 0,
+  "independent": 4,
+  "kinesthetic": 15,
+  "visual": 4,
+  "auditory": 0,
+  "active_experimentation": 5,
+  "situated_learning": 0,
+  "abstract_conceptualization": 4,
+  "sequential_thinking": 5,
+  "global_thinking": 4,
+  "analytical_thinking": 3,
+  "narrative_learning": 0,
+  "stability": 0,
+  "environmental_influence": 0,
+  "flexibility": 4,
+  "trait_influence": 0,
+  "abstract_theoretical": 4,
+  "concrete_practical": 10,
+  "reflective": 8,
+  "active": 5
+}
+
+Simplified Result Summary:
+Parental Perception: May need more information on personality development programs. Child's Personality Tendency: Primarily **EXTRAVERSION**. Preferred Learning Style: Strong inclination towards **CONCRETE PRACTICAL** learning. Also shows strengths in **KINESTHETIC** approaches. Recommended Development Approach: Consider programs that foster social interaction and collaborative learning and emphasize hands-on activities and real-life applications by utilizing visual aids and kinesthetic activities.
+
+Submission Date: 15/8/2025, 2:00:04 pm
+Student Name: tharun
+Age: 4
+
+Quiz Responses:
+Q: I like experimenting and trying things out to see what works.
+  A: Strongly Agree
+Q: How familiar are you with the personality development classes that can help your child improve their confidence, communication skills, and overall personality?
+  A: Very familiar
+Q: I understand ideas better when I can discuss them with others.
+  A: Strongly Agree
+Q: Personality development classes are a necessity in this highly competitive world. It will make your child more confident and self assured.
+  A: Strongly Agree
+Q: I enjoy listening to lectures, podcasts, or explanations more than reading.
+  A: Strongly Agree
+Q: I learn best when I can relate the material to real-life situations.
+  A: Strongly Agree
+Q: I often think about “the big picture” rather than focusing only on details.
+  A: Strongly Agree
+Q: I make plans and stick to them.
+  A: Strongly Agree
+Q: I worry a lot.
+  A: Strongly Agree
+Q: I enjoy listening to lectures, podcasts, or explanations more than reading.
+  A: Strongly Agree
+Q: I often learn by connecting new ideas to stories or personal experiences.
+  A: Strongly Agree
+Q: I prefer to work alone and figure things out by myself before sharing.
+  A: Strongly Agree
+Q: I like to cooperate and get along with others.
+  A: Strongly Agree
+Q: I am kind and considerate to almost everyone.
+  A: Strongly Agree
+Q: I like experimenting and trying things out to see what works.
+  A: Strongly Agree
+Q: You do believe that the personality development classes can bring out the best in your child.
+  A: Strongly Agree
+
+Scores:
+{
+  "familiarity": 5,
+  "exposure": 0,
+  "importance": 0,
+  "belief": 0,
+  "investment_belief": 0,
+  "likelihood_to_invest": 0,
+  "prioritization": 0,
+  "positive_impact_belief": 5,
+  "necessity_belief": 5,
+  "influencing_factors": 0,
+  "extraversion": 0,
+  "agreeableness": 10,
+  "conscientiousness": 5,
+  "neuroticism": 5,
+  "openness": 0,
+  "social_verbal": 5,
+  "independent": 5,
+  "kinesthetic": 10,
+  "visual": 5,
+  "auditory": 25,
+  "active_experimentation": 15,
+  "situated_learning": 5,
+  "abstract_conceptualization": 0,
+  "sequential_thinking": 0,
+  "global_thinking": 5,
+  "analytical_thinking": 0,
+  "narrative_learning": 5,
+  "stability": 0,
+  "environmental_influence": 0,
+  "flexibility": 0,
+  "trait_influence": 0,
+  "abstract_theoretical": 0,
+  "concrete_practical": 10,
+  "reflective": 15,
+  "active": 10
+}
+
+Simplified Result Summary:
+Parental Perception: Shows some awareness and value for personality development. Child's Personality Tendency: Primarily **AGREEABLENESS**. Preferred Learning Style: Strong inclination towards **ACTIVE** learning. Also shows strengths in **AUDITORY** approaches. Recommended Development Approach: Consider programs that support independent exploration and deep reflection and emphasize hands-on activities and real-life applications by utilizing visual aids and auditory methods and kinesthetic activities.
+
+Submission Date: 15/8/2025, 5:25:07 pm
+Student Name: tharun
+Age: 4
+
+Quiz Responses:
+Q: How likely are you to invest in personality development classes for your child?
+  A: Very likely
+Q: I worry a lot.
+  A: Strongly Agree
+Q: My personality affects how I approach learning.
+  A: Strongly Disagree
+Q: You would prioritize spending on personality development classes over other extra curricular activities for your child
+  A: Strongly disagree
+Q: I have a lot of energy and make things exciting.
+  A: Strongly Disagree
+Q: I understand ideas better when I can discuss them with others.
+  A: Strongly Disagree
+Q: How often do you come across any information regarding personality development classes?
+  A: Never
+Q: You think that investing in personality development classes for your child is important .
+  A: Strongly disagree
+Q: How likely are you to invest in personality development classes for your child?
+  A: Not likely at all
+Q: I am creative and like artistic or imaginative experiences.
+  A: Strongly Disagree
+Q: My personality affects how I approach learning.
+  A: Strongly Disagree
+Q: How important do you think personality development classes are for your child's overall growth and development?
+  A: Not important at all
+Q: You do believe that the personality development classes can bring out the best in your child.
+  A: Strongly disagree
+Q: I am kind and considerate to almost everyone.
+  A: Strongly Disagree
+Q: I like to make step-by-step plans before starting a task.
+  A: Strongly Disagree
+Q: I am curious about many different things.
+  A: Strongly Disagree
+
+Scores:
+{
+  "familiarity": 0,
+  "exposure": 1,
+  "importance": 1,
+  "belief": 0,
+  "investment_belief": 0,
+  "likelihood_to_invest": 6,
+  "prioritization": 0,
+  "positive_impact_belief": 0,
+  "necessity_belief": 0,
+  "influencing_factors": 0,
+  "extraversion": 1,
+  "agreeableness": 1,
+  "conscientiousness": 0,
+  "neuroticism": 5,
+  "openness": 2,
+  "social_verbal": 1,
+  "independent": 0,
+  "kinesthetic": 0,
+  "visual": 0,
+  "auditory": 2,
+  "active_experimentation": 1,
+  "situated_learning": 0,
+  "abstract_conceptualization": 0,
+  "sequential_thinking": 1,
+  "global_thinking": 0,
+  "analytical_thinking": 0,
+  "narrative_learning": 0,
+  "stability": 0,
+  "environmental_influence": 0,
+  "flexibility": 0,
+  "trait_influence": 2,
+  "abstract_theoretical": 0,
+  "concrete_practical": 0,
+  "reflective": 0,
+  "active": 1
+}
+
+Simplified Result Summary:
+Parental Perception: May need more information on personality development programs. Child's Personality Tendency: Primarily **NEUROTICISM**. Preferred Learning Style: Strong inclination towards **ACTIVE** learning. Also shows strengths in **AUDITORY** approaches. Recommended Development Approach: Consider programs that foster social interaction and collaborative learning by utilizing auditory methods.
+
+Submission Date: 15/8/2025, 5:28:40 pm
+Student Name: akhil
+Age: 18
+
+Quiz Responses:
+Q: You would prioritize spending on personality development classes over other extra curricular activities for your child
+  A: Neutral
+Q: I remember things better when I see diagrams, charts, or visual aids.
+  A: Neutral
+Q: How important do you think personality development classes are for your child's overall growth and development?
+  A: Neutral
+Q: I learn best when I can relate the material to real-life situations.
+  A: Neutral
+Q: I remember things better when I see diagrams, charts, or visual aids.
+  A: Neutral
+Q: I often think about “the big picture” rather than focusing only on details.
+  A: Neutral
+Q: I am kind and considerate to almost everyone.
+  A: Neutral
+Q: I have a lot of energy and make things exciting.
+  A: Neutral
+Q: How important do you think personality development classes are for your child's overall growth and development?
+  A: Neutral
+Q: I learn best when I can relate the material to real-life situations.
+  A: Neutral
+Q: My personality affects how I approach learning.
+  A: Neutral
+Q: I make plans and stick to them.
+  A: Neutral
+Q: You do believe that the personality development classes can bring out the best in your child.
+  A: Neutral
+Q: What factors would influence your decision to enroll your child in  personality development classes?
+  A: Cost
+Q: I get nervous easily.
+  A: Neutral
+Q: I do things carefully and completely.
+  A: Neutral
+
+Scores:
+{
+  "familiarity": 0,
+  "exposure": 0,
+  "importance": 6,
+  "belief": 0,
+  "investment_belief": 0,
+  "likelihood_to_invest": 0,
+  "prioritization": 3,
+  "positive_impact_belief": 3,
+  "necessity_belief": 0,
+  "influencing_factors": 1,
+  "extraversion": 3,
+  "agreeableness": 3,
+  "conscientiousness": 6,
+  "neuroticism": 3,
+  "openness": 0,
+  "social_verbal": 0,
+  "independent": 0,
+  "kinesthetic": 3,
+  "visual": 12,
+  "auditory": 0,
+  "active_experimentation": 0,
+  "situated_learning": 6,
+  "abstract_conceptualization": 0,
+  "sequential_thinking": 0,
+  "global_thinking": 3,
+  "analytical_thinking": 0,
+  "narrative_learning": 0,
+  "stability": 0,
+  "environmental_influence": 0,
+  "flexibility": 0,
+  "trait_influence": 3,
+  "abstract_theoretical": 0,
+  "concrete_practical": 9,
+  "reflective": 0,
+  "active": 0
+}
+
+Simplified Result Summary:
+Parental Perception: Shows some awareness and value for personality development. Child's Personality Tendency: Primarily **CONSCIENTIOUSNESS**. Preferred Learning Style: Strong inclination towards **CONCRETE PRACTICAL** learning. Also shows strengths in **VISUAL** approaches. Recommended Development Approach: Consider programs that foster social interaction and collaborative learning and emphasize hands-on activities and real-life applications by utilizing visual aids and kinesthetic activities.
+
+Submission Date: 15/8/2025, 5:32:23 pm
+Student Name: akhil
+Age: 18
+
+Quiz Responses:
+Q: I get nervous easily.
+  A: Disagree
+Q: I have a lot of energy and make things exciting.
+  A: Agree
+Q: I enjoy exploring abstract theories and concepts, even without direct application.
+  A: Agree
+Q: How familiar are you with the personality development classes that can help your child improve their confidence, communication skills, and overall personality?
+  A: Somewhat familiar
+Q: I worry a lot.
+  A: Disagree
+Q: I am creative and like artistic or imaginative experiences.
+  A: Agree
+Q: I often learn by connecting new ideas to stories or personal experiences.
+  A: Agree
+Q: How likely are you to invest in personality development classes for your child?
+  A: Not likely at all
+Q: I like to make step-by-step plans before starting a task.
+  A: Agree
+Q: I prefer facts and data over opinions or emotions when learning.
+  A: Agree
+Q: My teachers or learning environments have shaped how I prefer to learn.
+  A: Agree
+Q: I enjoy exploring abstract theories and concepts, even without direct application.
+  A: Agree
+Q: I am kind and considerate to almost everyone.
+  A: Agree
+Q: I have a lot of energy and make things exciting.
+  A: Agree
+Q: I like to cooperate and get along with others.
+  A: Agree
+Q: I learn best when I can see and touch real objects or do practical activities.
+  A: Agree
+
+Scores:
+{
+  "familiarity": 2,
+  "exposure": 0,
+  "importance": 0,
+  "belief": 0,
+  "investment_belief": 0,
+  "likelihood_to_invest": 1,
+  "prioritization": 0,
+  "positive_impact_belief": 0,
+  "necessity_belief": 0,
+  "influencing_factors": 0,
+  "extraversion": 8,
+  "agreeableness": 8,
+  "conscientiousness": 0,
+  "neuroticism": 4,
+  "openness": 4,
+  "social_verbal": 0,
+  "independent": 0,
+  "kinesthetic": 8,
+  "visual": 0,
+  "auditory": 0,
+  "active_experimentation": 0,
+  "situated_learning": 0,
+  "abstract_conceptualization": 8,
+  "sequential_thinking": 4,
+  "global_thinking": 0,
+  "analytical_thinking": 4,
+  "narrative_learning": 4,
+  "stability": 0,
+  "environmental_influence": 4,
+  "flexibility": 0,
+  "trait_influence": 0,
+  "abstract_theoretical": 4,
+  "concrete_practical": 8,
+  "reflective": 4,
+  "active": 0
+}
+
+Simplified Result Summary:
+Parental Perception: Shows some awareness and value for personality development. Child's Personality Tendency: Primarily **EXTRAVERSION**. Preferred Learning Style: Strong inclination towards **CONCRETE PRACTICAL** learning. Also shows strengths in **ABSTRACT THEORETICAL** approaches. Recommended Development Approach: Consider programs that foster social interaction and collaborative learning and emphasize hands-on activities and real-life applications by utilizing kinesthetic activities.
+
+Submission Date: 15/8/2025, 5:47:00 pm
+Student Name: akhil
+Age: 18
+
+Quiz Responses:
+Q: What factors would influence your decision to enroll your child in  personality development classes?
+  A: Cost
+Q: I enjoy listening to lectures, podcasts, or explanations more than reading.
+  A: Agree
+Q: I am outgoing and enjoy being with people.
+  A: Agree
+Q: I worry a lot.
+  A: Agree
+Q: How important do you think personality development classes are for your child's overall growth and development?
+  A: Neutral
+Q: I like to make step-by-step plans before starting a task.
+  A: Strongly Agree
+
+Scores:
+{
+  "familiarity": 0,
+  "exposure": 0,
+  "importance": 3,
+  "belief": 0,
+  "investment_belief": 0,
+  "likelihood_to_invest": 0,
+  "prioritization": 0,
+  "positive_impact_belief": 0,
+  "necessity_belief": 0,
+  "influencing_factors": 1,
+  "extraversion": 4,
+  "agreeableness": 0,
+  "conscientiousness": 0,
+  "neuroticism": 4,
+  "openness": 0,
+  "social_verbal": 0,
+  "independent": 0,
+  "kinesthetic": 0,
+  "visual": 0,
+  "auditory": 8,
+  "active_experimentation": 0,
+  "situated_learning": 0,
+  "abstract_conceptualization": 0,
+  "sequential_thinking": 5,
+  "global_thinking": 0,
+  "analytical_thinking": 0,
+  "narrative_learning": 0,
+  "stability": 0,
+  "environmental_influence": 0,
+  "flexibility": 0,
+  "trait_influence": 0,
+  "abstract_theoretical": 0,
+  "concrete_practical": 0,
+  "reflective": 0,
+  "active": 0
+}
+
+Simplified Result Summary:
+Parental Perception: Shows some awareness and value for personality development. Child's Personality Tendency: Primarily **EXTRAVERSION**. Preferred Learning Style: Strong inclination towards **AUDITORY** learning. Also shows strengths in **SEQUENTIAL** approaches. Recommended Development Approach: Consider programs that foster social interaction and collaborative learning by utilizing auditory methods.
+
+Submission Date: 15/8/2025, 5:51:16 pm
+Student Name: akhil
+Age: 18
+
+Quiz Responses:
+Q: My teachers or learning environments have shaped how I prefer to learn.
+  A: Strongly Agree
+
+Scores:
+{
+  "familiarity": 0,
+  "exposure": 0,
+  "importance": 0,
+  "belief": 0,
+  "investment_belief": 0,
+  "likelihood_to_invest": 0,
+  "prioritization": 0,
+  "positive_impact_belief": 0,
+  "necessity_belief": 0,
+  "influencing_factors": 0,
+  "extraversion": 0,
+  "agreeableness": 0,
+  "conscientiousness": 0,
+  "neuroticism": 0,
+  "openness": 0,
+  "social_verbal": 0,
+  "independent": 0,
+  "kinesthetic": 0,
+  "visual": 0,
+  "auditory": 0,
+  "active_experimentation": 0,
+  "situated_learning": 0,
+  "abstract_conceptualization": 0,
+  "sequential_thinking": 0,
+  "global_thinking": 0,
+  "analytical_thinking": 0,
+  "narrative_learning": 0,
+  "stability": 0,
+  "environmental_influence": 5,
+  "flexibility": 0,
+  "trait_influence": 0,
+  "abstract_theoretical": 0,
+  "concrete_practical": 0,
+  "reflective": 0,
+  "active": 0
+}
+
+Simplified Result Summary:
+Parental Perception: May need more information on personality development programs. Child's Personality Tendency: A balanced blend of traits. Preferred Learning Style: Adaptable and shows no single dominant style. Recommended Development Approach: Consider programs that offer a balanced and adaptable learning environment.
+
+Submission Date: 15/8/2025, 5:53:47 pm
+Student Name: tharun
+Age: 6
+
+Quiz Responses:
+Q: I am creative and like artistic or imaginative experiences.
+  A: Strongly Agree
+Q: My teachers or learning environments have shaped how I prefer to learn.
+  A: Agree
+Q: I am curious about many different things.
+  A: Agree
+Q: I make plans and stick to them.
+  A: Agree
+Q: I learn best when I can relate the material to real-life situations.
+  A: Strongly Disagree
+Q: I like to cooperate and get along with others.
+  A: Strongly Disagree
+Q: How likely are you to invest in personality development classes for your child?
+  A: Fairly likely
+Q: I have learned this way since I was young.
+  A: Disagree
+Q: I like experimenting and trying things out to see what works.
+  A: Neutral
+Q: I am kind and considerate to almost everyone.
+  A: Neutral
+Q: I adjust my learning style depending on the subject or task.
+  A: Strongly Disagree
+Q: I prefer to work alone and figure things out by myself before sharing.
+  A: Neutral
+
+Scores:
+{
+  "familiarity": 0,
+  "exposure": 0,
+  "importance": 0,
+  "belief": 0,
+  "investment_belief": 0,
+  "likelihood_to_invest": 4,
+  "prioritization": 0,
+  "positive_impact_belief": 0,
+  "necessity_belief": 0,
+  "influencing_factors": 0,
+  "extraversion": 0,
+  "agreeableness": 4,
+  "conscientiousness": 4,
+  "neuroticism": 0,
+  "openness": 9,
+  "social_verbal": 0,
+  "independent": 3,
+  "kinesthetic": 4,
+  "visual": 0,
+  "auditory": 0,
+  "active_experimentation": 3,
+  "situated_learning": 1,
+  "abstract_conceptualization": 0,
+  "sequential_thinking": 0,
+  "global_thinking": 0,
+  "analytical_thinking": 0,
+  "narrative_learning": 0,
+  "stability": 2,
+  "environmental_influence": 4,
+  "flexibility": 1,
+  "trait_influence": 0,
+  "abstract_theoretical": 0,
+  "concrete_practical": 2,
+  "reflective": 6,
+  "active": 3
+}
+
+Simplified Result Summary:
+Parental Perception: May need more information on personality development programs. Child's Personality Tendency: Primarily **OPENNESS**. Preferred Learning Style: Strong inclination towards **REFLECTIVE** learning. Also shows strengths in **CONCRETE PRACTICAL** approaches. Recommended Development Approach: Consider programs that support independent exploration and deep reflection and emphasize hands-on activities and real-life applications by utilizing kinesthetic activities.
+
+Submission Date: 15/8/2025, 5:56:46 pm
+Student Name: akhil
+Age: 8
+
+Quiz Responses:
+Q: I do things carefully and completely.
+  A: Strongly Agree
+Q: I have a lot of energy and make things exciting.
+  A: Neutral
+Q: I often learn by connecting new ideas to stories or personal experiences.
+  A: Disagree
+Q: I like to cooperate and get along with others.
+  A: Neutral
+Q: I like to make step-by-step plans before starting a task.
+  A: Agree
+Q: I make plans and stick to them.
+  A: Strongly Disagree
+
+Scores:
+{
+  "familiarity": 0,
+  "exposure": 0,
+  "importance": 0,
+  "belief": 0,
+  "investment_belief": 0,
+  "likelihood_to_invest": 0,
+  "prioritization": 0,
+  "positive_impact_belief": 0,
+  "necessity_belief": 0,
+  "influencing_factors": 0,
+  "extraversion": 3,
+  "agreeableness": 3,
+  "conscientiousness": 6,
+  "neuroticism": 0,
+  "openness": 0,
+  "social_verbal": 0,
+  "independent": 0,
+  "kinesthetic": 0,
+  "visual": 0,
+  "auditory": 0,
+  "active_experimentation": 0,
+  "situated_learning": 0,
+  "abstract_conceptualization": 0,
+  "sequential_thinking": 4,
+  "global_thinking": 0,
+  "analytical_thinking": 0,
+  "narrative_learning": 2,
+  "stability": 0,
+  "environmental_influence": 0,
+  "flexibility": 0,
+  "trait_influence": 0,
+  "abstract_theoretical": 0,
+  "concrete_practical": 0,
+  "reflective": 2,
+  "active": 0
+}
+
+Simplified Result Summary:
+Parental Perception: May need more information on personality development programs. Child's Personality Tendency: Primarily **CONSCIENTIOUSNESS**. Preferred Learning Style: Strong inclination towards **REFLECTIVE** learning. Also shows strengths in **SEQUENTIAL** approaches. Recommended Development Approach: Consider programs that foster social interaction and collaborative learning.
+
+Submission Date: 15/8/2025, 6:02:30 pm
+Student Name: akhil
+Age: 8
+
+Quiz Responses:
+Q: You do believe that the personality development classes can bring out the best in your child.
+  A: Neutral
+Q: I have a lot of energy and make things exciting.
+  A: Neutral
+Q: Personality development classes are a necessity in this highly competitive world. It will make your child more confident and self assured.
+  A: Disagree
+Q: I enjoy listening to lectures, podcasts, or explanations more than reading.
+  A: Neutral
+Q: I understand ideas better when I can discuss them with others.
+  A: Neutral
+Q: I like to make step-by-step plans before starting a task.
+  A: Agree
+
+Scores:
+{
+  "familiarity": 0,
+  "exposure": 0,
+  "importance": 0,
+  "belief": 0,
+  "investment_belief": 0,
+  "likelihood_to_invest": 0,
+  "prioritization": 0,
+  "positive_impact_belief": 3,
+  "necessity_belief": 2,
+  "influencing_factors": 0,
+  "extraversion": 3,
+  "agreeableness": 0,
+  "conscientiousness": 0,
+  "neuroticism": 0,
+  "openness": 0,
+  "social_verbal": 3,
+  "independent": 0,
+  "kinesthetic": 0,
+  "visual": 0,
+  "auditory": 12,
+  "active_experimentation": 3,
+  "situated_learning": 0,
+  "abstract_conceptualization": 0,
+  "sequential_thinking": 4,
+  "global_thinking": 0,
+  "analytical_thinking": 0,
+  "narrative_learning": 0,
+  "stability": 0,
+  "environmental_influence": 0,
+  "flexibility": 0,
+  "trait_influence": 0,
+  "abstract_theoretical": 0,
+  "concrete_practical": 0,
+  "reflective": 0,
+  "active": 3
+}
+
+Simplified Result Summary:
+Parental Perception: May need more information on personality development programs. Child's Personality Tendency: Primarily **EXTRAVERSION**. Preferred Learning Style: Strong inclination towards **AUDITORY** learning. Also shows strengths in **ACTIVE** approaches. Recommended Development Approach: Consider programs that foster social interaction and collaborative learning by utilizing auditory methods.
+
+Submission Date: 15/8/2025, 6:06:38 pm
+Student Name: akhil
+Age: 8
+
+Quiz Responses:
+Q: You do believe that the personality development classes can bring out the best in your child.
+  A: Neutral
+Q: I often learn by connecting new ideas to stories or personal experiences.
+  A: Disagree
+Q: I have learned this way since I was young.
+  A: Agree
+Q: I make plans and stick to them.
+  A: Neutral
+
+Scores:
+{
+  "familiarity": 0,
+  "exposure": 0,
+  "importance": 0,
+  "belief": 0,
+  "investment_belief": 0,
+  "likelihood_to_invest": 0,
+  "prioritization": 0,
+  "positive_impact_belief": 3,
+  "necessity_belief": 0,
+  "influencing_factors": 0,
+  "extraversion": 0,
+  "agreeableness": 0,
+  "conscientiousness": 3,
+  "neuroticism": 0,
+  "openness": 0,
+  "social_verbal": 0,
+  "independent": 0,
+  "kinesthetic": 0,
+  "visual": 0,
+  "auditory": 0,
+  "active_experimentation": 0,
+  "situated_learning": 0,
+  "abstract_conceptualization": 0,
+  "sequential_thinking": 0,
+  "global_thinking": 0,
+  "analytical_thinking": 0,
+  "narrative_learning": 2,
+  "stability": 4,
+  "environmental_influence": 0,
+  "flexibility": 0,
+  "trait_influence": 0,
+  "abstract_theoretical": 0,
+  "concrete_practical": 0,
+  "reflective": 2,
+  "active": 0
+}
+
+Simplified Result Summary:
+Parental Perception: May need more information on personality development programs. Child's Personality Tendency: Primarily **CONSCIENTIOUSNESS**. Preferred Learning Style: Strong inclination towards **REFLECTIVE** learning. Also shows strengths in **NARRATIVE** approaches. Recommended Development Approach: Consider programs that offer a balanced and adaptable learning environment.
+
+Submission Date: 15/8/2025, 6:10:04 pm
+Student Name: akhil
+Age: 8
+
+Quiz Responses:
+Q: I learn best when I can see and touch real objects or do practical activities.
+  A: Neutral
+Q: I am kind and considerate to almost everyone.
+  A: Neutral
+Q: How often do you come across any information regarding personality development classes?
+  A: Rarely
+Q: You think that investing in personality development classes for your child is important .
+  A: Strongly agree
+Q: Do you believe that personality development classes can play significant role in shaping your child's future success?
+  A: Neutral
+
+Scores:
+{
+  "familiarity": 0,
+  "exposure": 2,
+  "importance": 0,
+  "belief": 3,
+  "investment_belief": 0,
+  "likelihood_to_invest": 0,
+  "prioritization": 0,
+  "positive_impact_belief": 0,
+  "necessity_belief": 0,
+  "influencing_factors": 0,
+  "extraversion": 0,
+  "agreeableness": 3,
+  "conscientiousness": 0,
+  "neuroticism": 0,
+  "openness": 0,
+  "social_verbal": 0,
+  "independent": 0,
+  "kinesthetic": 6,
+  "visual": 0,
+  "auditory": 0,
+  "active_experimentation": 0,
+  "situated_learning": 0,
+  "abstract_conceptualization": 0,
+  "sequential_thinking": 0,
+  "global_thinking": 0,
+  "analytical_thinking": 0,
+  "narrative_learning": 0,
+  "stability": 0,
+  "environmental_influence": 0,
+  "flexibility": 0,
+  "trait_influence": 0,
+  "abstract_theoretical": 0,
+  "concrete_practical": 6,
+  "reflective": 0,
+  "active": 0
+}
+
+Simplified Result Summary:
+Parental Perception: May need more information on personality development programs. Child's Personality Tendency: Primarily **AGREEABLENESS**. Preferred Learning Style: Strong inclination towards **CONCRETE PRACTICAL** learning. Also shows strengths in **KINESTHETIC** approaches. Recommended Development Approach: Consider programs that emphasize hands-on activities and real-life applications by utilizing kinesthetic activities.
+
+Submission Date: 15/8/2025, 6:14:26 pm
+Student Name: akhil
+Age: 8
+
+Quiz Responses:
+Q: I am kind and considerate to almost everyone.
+  A: Agree
+Q: I make plans and stick to them.
+  A: Agree
+Q: I remember things better when I see diagrams, charts, or visual aids.
+  A: Disagree
+Q: My personality affects how I approach learning.
+  A: Strongly Disagree
+
+Scores:
+{
+  "familiarity": 0,
+  "exposure": 0,
+  "importance": 0,
+  "belief": 0,
+  "investment_belief": 0,
+  "likelihood_to_invest": 0,
+  "prioritization": 0,
+  "positive_impact_belief": 0,
+  "necessity_belief": 0,
+  "influencing_factors": 0,
+  "extraversion": 0,
+  "agreeableness": 4,
+  "conscientiousness": 4,
+  "neuroticism": 0,
+  "openness": 0,
+  "social_verbal": 0,
+  "independent": 0,
+  "kinesthetic": 0,
+  "visual": 4,
+  "auditory": 0,
+  "active_experimentation": 0,
+  "situated_learning": 0,
+  "abstract_conceptualization": 0,
+  "sequential_thinking": 0,
+  "global_thinking": 0,
+  "analytical_thinking": 0,
+  "narrative_learning": 0,
+  "stability": 0,
+  "environmental_influence": 0,
+  "flexibility": 0,
+  "trait_influence": 1,
+  "abstract_theoretical": 0,
+  "concrete_practical": 0,
+  "reflective": 0,
+  "active": 0
+}
+
+Simplified Result Summary:
+Parental Perception: May need more information on personality development programs. Child's Personality Tendency: Primarily **AGREEABLENESS**. Preferred Learning Style: Strong inclination towards **VISUAL** learning. Recommended Development Approach: Consider programs that utilizing visual aids.
+
+Submission Date: 15/8/2025, 6:17:07 pm
+Student Name: akhil
+Age: 8
+
+Quiz Responses:
+Q: I have a lot of energy and make things exciting.
+  A: Agree
+Q: I get nervous easily.
+  A: Disagree
+Q: My personality affects how I approach learning.
+  A: Agree
+Q: I have learned this way since I was young.
+  A: Disagree
+Q: What factors would influence your decision to enroll your child in  personality development classes?
+  A: Curriculum content
+Q: I like to make step-by-step plans before starting a task.
+  A: Agree
+Q: Personality development classes are a necessity in this highly competitive world. It will make your child more confident and self assured.
+  A: Disagree
+Q: I enjoy exploring abstract theories and concepts, even without direct application.
+  A: Agree
+Q: You would prioritize spending on personality development classes over other extra curricular activities for your child
+  A: Neutral
+Q: I prefer facts and data over opinions or emotions when learning.
+  A: Neutral
+Q: I am kind and considerate to almost everyone.
+  A: Disagree
+Q: Do you believe that personality development classes can play significant role in shaping your child's future success?
+  A: Disagree
+Q: I often learn by connecting new ideas to stories or personal experiences.
+  A: Strongly Disagree
+Q: How likely are you to invest in personality development classes for your child?
+  A: Somewhat Likely
+Q: I am curious about many different things.
+  A: Strongly Agree
+Q: I am outgoing and enjoy being with people.
+  A: Disagree
+
+Scores:
+{
+  "familiarity": 0,
+  "exposure": 0,
+  "importance": 0,
+  "belief": 2,
+  "investment_belief": 0,
+  "likelihood_to_invest": 2,
+  "prioritization": 3,
+  "positive_impact_belief": 0,
+  "necessity_belief": 2,
+  "influencing_factors": 1,
+  "extraversion": 6,
+  "agreeableness": 2,
+  "conscientiousness": 0,
+  "neuroticism": 2,
+  "openness": 5,
+  "social_verbal": 0,
+  "independent": 0,
+  "kinesthetic": 0,
+  "visual": 0,
+  "auditory": 0,
+  "active_experimentation": 0,
+  "situated_learning": 0,
+  "abstract_conceptualization": 4,
+  "sequential_thinking": 4,
+  "global_thinking": 0,
+  "analytical_thinking": 3,
+  "narrative_learning": 1,
+  "stability": 2,
+  "environmental_influence": 0,
+  "flexibility": 0,
+  "trait_influence": 4,
+  "abstract_theoretical": 4,
+  "concrete_practical": 0,
+  "reflective": 1,
+  "active": 0
+}
+
+Simplified Result Summary:
+Parental Perception: May need more information on personality development programs. Child's Personality Tendency: Primarily **EXTRAVERSION**. Preferred Learning Style: Strong inclination towards **ABSTRACT THEORETICAL** learning. Also shows strengths in **SEQUENTIAL** approaches. Recommended Development Approach: Consider programs that foster social interaction and collaborative learning and encourage conceptual understanding and theoretical exploration.
+
+Submission Date: 15/8/2025, 6:21:55 pm
+Student Name: tharun
+Age: 18
+
+Quiz Responses:
+Q: I like experimenting and trying things out to see what works.
+  A: Agree
+Q: I am curious about many different things.
+  A: Disagree
+Q: I adjust my learning style depending on the subject or task.
+  A: Agree
+Q: What factors would influence your decision to enroll your child in  personality development classes?
+  A: Quality of instructors
+Q: I do things carefully and completely.
+  A: Strongly Agree
+Q: My teachers or learning environments have shaped how I prefer to learn.
+  A: Disagree
+Q: You would prioritize spending on personality development classes over other extra curricular activities for your child
+  A: Disagree
+Q: I have learned this way since I was young.
+  A: Strongly Agree
+Q: My personality affects how I approach learning.
+  A: Agree
+Q: I prefer facts and data over opinions or emotions when learning.
+  A: Disagree
+Q: I enjoy listening to lectures, podcasts, or explanations more than reading.
+  A: Strongly Disagree
+Q: I am kind and considerate to almost everyone.
+  A: Agree
+Q: How likely are you to invest in personality development classes for your child?
+  A: Not likely at all
+Q: I learn best when I can relate the material to real-life situations.
+  A: Strongly Agree
+Q: I enjoy exploring abstract theories and concepts, even without direct application.
+  A: Strongly Disagree
+Q: How familiar are you with the personality development classes that can help your child improve their confidence, communication skills, and overall personality?
+  A: Somewhat familiar
+
+Scores:
+{
+  "familiarity": 2,
+  "exposure": 0,
+  "importance": 0,
+  "belief": 0,
+  "investment_belief": 0,
+  "likelihood_to_invest": 1,
+  "prioritization": 2,
+  "positive_impact_belief": 0,
+  "necessity_belief": 0,
+  "influencing_factors": 1,
+  "extraversion": 0,
+  "agreeableness": 4,
+  "conscientiousness": 5,
+  "neuroticism": 0,
+  "openness": 2,
+  "social_verbal": 0,
+  "independent": 0,
+  "kinesthetic": 9,
+  "visual": 0,
+  "auditory": 2,
+  "active_experimentation": 4,
+  "situated_learning": 5,
+  "abstract_conceptualization": 1,
+  "sequential_thinking": 0,
+  "global_thinking": 0,
+  "analytical_thinking": 2,
+  "narrative_learning": 0,
+  "stability": 5,
+  "environmental_influence": 2,
+  "flexibility": 4,
+  "trait_influence": 4,
+  "abstract_theoretical": 1,
+  "concrete_practical": 10,
+  "reflective": 0,
+  "active": 4
+}
+
+Simplified Result Summary:
+Parental Perception: Shows some awareness and value for personality development. Child's Personality Tendency: Primarily **CONSCIENTIOUSNESS**. Preferred Learning Style: Strong inclination towards **CONCRETE PRACTICAL** learning. Also shows strengths in **KINESTHETIC** approaches. Recommended Development Approach: Consider programs that emphasize hands-on activities and real-life applications by utilizing auditory methods and kinesthetic activities.
+
+Submission Date: 15/8/2025, 6:25:04 pm
