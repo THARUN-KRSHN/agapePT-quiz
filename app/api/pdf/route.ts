@@ -1,7 +1,6 @@
 import { PrismaClient } from '@prisma/client';
 import { NextResponse } from 'next/server';
 import { PDFDocument, StandardFonts, rgb } from 'pdf-lib';
-import path from 'path'; // Import path module
 
 const prisma = new PrismaClient();
 

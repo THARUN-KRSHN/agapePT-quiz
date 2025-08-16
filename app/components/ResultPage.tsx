@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Box, Typography, Button, Container, CircularProgress } from '@mui/material';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 
 interface ResultPageProps {
   submissionId: number;
@@ -21,9 +21,9 @@ const ResultPage: React.FC<ResultPageProps> = ({ submissionId, onRetest }) => {
   const [error, setError] = useState<string | null>(null);
   const [pdfLoading, setPdfLoading] = useState<boolean>(false);
 
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: 'easeOut' } },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } },
   };
 
   useEffect(() => {
@@ -37,9 +37,10 @@ const ResultPage: React.FC<ResultPageProps> = ({ submissionId, onRetest }) => {
         const data: SubmissionData = await res.json();
         setSubmissionData(data);
         setLoading(false);
-      } catch (err: any) {
-        console.error('Failed to fetch submission data:', err);
-        setError(`Failed to load results: ${err.message}`);
+      } catch (err: unknown) {
+        const error = err instanceof Error ? err : new Error('Unknown error occurred');
+        console.error('Failed to fetch submission data:', error);
+        setError(`Failed to load results: ${error.message}`);
         setLoading(false);
       }
     };
@@ -62,9 +63,10 @@ const ResultPage: React.FC<ResultPageProps> = ({ submissionId, onRetest }) => {
       a.click();
       a.remove();
       window.URL.revokeObjectURL(url);
-    } catch (err: any) {
-      console.error('Failed to download PDF:', err);
-      alert(`Failed to download PDF: ${err.message}`);
+    } catch (err: unknown) {
+      const error = err instanceof Error ? err : new Error('Unknown error occurred');
+      console.error('Failed to download PDF:', error);
+      alert(`Failed to download PDF: ${error.message}`);
     } finally {
       setPdfLoading(false);
     }
@@ -142,7 +144,7 @@ const ResultPage: React.FC<ResultPageProps> = ({ submissionId, onRetest }) => {
             </Typography>
             {Object.entries(scoresObj).map(([key, value]) => (
               <Typography key={key} variant="body2">
-                {key.replace(/_/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase())}: {value}
+                {key.replace(/_/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase())}: {String(value)}
               </Typography>
             ))}
           </Box>

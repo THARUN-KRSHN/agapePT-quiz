@@ -5,9 +5,23 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:analyze": "ANALYZE=true next build",
+    "build:production": "NODE_ENV=production next build",
     "start": "next start",
+    "start:production": "NODE_ENV=production next start",
     "lint": "next lint",
-    "seed": "tsx prisma/seed.ts"
+    "lint:fix": "next lint --fix",
+    "seed": "tsx prisma/seed.ts",
+    "clean": "rm -rf .next out",
+    "type-check": "tsc --noEmit",
+    "prebuild": "npm run type-check && npm run lint",
+    "build:docker": "docker build -t agapequiz:latest .",
+    "start:docker": "docker run -p 3000:3000 agapequiz:latest",
+    "deploy:docker": "npm run build:docker && npm run start:docker",
+    "docker:dev": "docker-compose --profile dev up --build",
+    "docker:prod": "docker-compose --profile prod up --build -d",
+    "docker:down": "docker-compose down",
+    "build:script": "node scripts/build-production.js"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -26,12 +40,16 @@
     "react-dom": "19.1.0"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^15.4.6",
+    "@svgr/webpack": "^8.1.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/nodemailer": "^7.0.0",
     "@types/pdfkit": "^0.17.2",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "eslint": "9.33.0",
+    "eslint-config-next": "15.4.6",
     "prisma": "^6.14.0",
     "tailwindcss": "^4",
     "ts-node": "^10.9.2",

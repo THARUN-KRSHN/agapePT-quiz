@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Box, Typography, TextField, Button, Container } from '@mui/material';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 
 interface NameAgeCollectionProps {
   onStartQuiz: (name: string, age: number) => void;
@@ -10,9 +10,9 @@ const NameAgeCollection: React.FC<NameAgeCollectionProps> = ({ onStartQuiz }) =>
   const [name, setName] = useState<string>('');
   const [age, setAge] = useState<string>('');
 
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: 'easeOut' } },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } },
   };
 
   const handleSubmit = (event: React.FormEvent) => {

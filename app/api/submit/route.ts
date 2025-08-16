@@ -284,7 +284,7 @@ export async function POST(request: Request) {
         dominantType: insight, // Store full insight in DB
         calculationLog: calculationSteps, // Store brief log for email
         userResponses: {
-          create: responses.map((r: any) => ({
+          create: responses.map((r: { questionId: number; response: string }) => ({
             questionId: r.questionId,
             response: r.response,
           })),

@@ -35,10 +35,6 @@ const vintagePalette = {
   },
 };
 
-const vintageTypography = {
-  fontFamily: ''
-};
-
 const theme = createTheme({
   palette: vintagePalette,
   typography: {

@@ -41,9 +41,10 @@ const QuizLayout: React.FC<QuizLayoutProps> = ({ name, age, onQuizComplete }) =>
         const data: Question[] = await res.json();
         setQuestions(data);
         setLoading(false);
-      } catch (err: any) {
-        console.error('Failed to fetch questions:', err);
-        setError(`Failed to load quiz: ${err.message}`);
+      } catch (err: unknown) {
+        const error = err instanceof Error ? err : new Error('Unknown error occurred');
+        console.error('Failed to fetch questions:', error);
+        setError(`Failed to load quiz: ${error.message}`);
         setLoading(false);
       }
     };
@@ -83,9 +84,10 @@ const QuizLayout: React.FC<QuizLayoutProps> = ({ name, age, onQuizComplete }) =>
 
         const result = await res.json();
         onQuizComplete(result.submissionId);
-      } catch (err: any) {
-        console.error('Failed to submit quiz:', err);
-        setError(`Failed to submit quiz: ${err.message}`);
+      } catch (err: unknown) {
+        const error = err instanceof Error ? err : new Error('Unknown error occurred');
+        console.error('Failed to submit quiz:', error);
+        setError(`Failed to submit quiz: ${error.message}`);
       } finally {
         setSubmitting(false);
       }
