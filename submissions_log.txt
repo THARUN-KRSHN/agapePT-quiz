@@ -1366,3 +1366,133 @@ Simplified Result Summary:
 Parental Perception: May need more information on personality development programs. Child's Personality Tendency: Primarily **CONSCIENTIOUSNESS**. Preferred Learning Style: Strong inclination towards **CONCRETE PRACTICAL** learning. Also shows strengths in **VISUAL** approaches. Recommended Development Approach: Consider programs that foster social interaction and collaborative learning and emphasize hands-on activities and real-life applications by utilizing visual aids and auditory methods and kinesthetic activities.
 
 Submission Date: 15/8/2025, 9:17:38 pm
+Student Name: Tharun
+Age: 17
+
+Quiz Responses:
+Q: I often learn by connecting new ideas to stories or personal experiences.
+  A: Strongly Disagree
+Q: I am creative and like artistic or imaginative experiences.
+  A: Agree
+Q: My teachers or learning environments have shaped how I prefer to learn.
+  A: Strongly Agree
+Q: I have learned this way since I was young.
+  A: Disagree
+Q: I enjoy listening to lectures, podcasts, or explanations more than reading.
+  A: Strongly Agree
+Q: You think that investing in personality development classes for your child is important .
+  A: Agree
+Q: I am curious about many different things.
+  A: Neutral
+Q: You do believe that the personality development classes can bring out the best in your child.
+  A: Agree
+Q: You would prioritize spending on personality development classes over other extra curricular activities for your child
+  A: Neutral
+Q: I learn best when I can relate the material to real-life situations.
+  A: Strongly Agree
+Q: I enjoy exploring abstract theories and concepts, even without direct application.
+  A: Strongly Disagree
+Q: I like to cooperate and get along with others.
+  A: Agree
+Q: How often do you come across any information regarding personality development classes?
+  A: Frequently
+Q: My personality affects how I approach learning.
+  A: Strongly Agree
+Q: I learn best when I can see and touch real objects or do practical activities.
+  A: Disagree
+Q: I worry a lot.
+  A: Neutral
+
+Scores:
+{
+  "familiarity": 0,
+  "exposure": 4,
+  "importance": 0,
+  "belief": 0,
+  "investment_belief": 4,
+  "likelihood_to_invest": 0,
+  "prioritization": 3,
+  "positive_impact_belief": 4,
+  "necessity_belief": 0,
+  "influencing_factors": 0,
+  "extraversion": 0,
+  "agreeableness": 4,
+  "conscientiousness": 0,
+  "neuroticism": 3,
+  "openness": 7,
+  "social_verbal": 0,
+  "independent": 0,
+  "kinesthetic": 9,
+  "visual": 0,
+  "auditory": 10,
+  "active_experimentation": 0,
+  "situated_learning": 5,
+  "abstract_conceptualization": 1,
+  "sequential_thinking": 0,
+  "global_thinking": 0,
+  "analytical_thinking": 0,
+  "narrative_learning": 1,
+  "stability": 2,
+  "environmental_influence": 5,
+  "flexibility": 0,
+  "trait_influence": 5,
+  "abstract_theoretical": 1,
+  "concrete_practical": 14,
+  "reflective": 1,
+  "active": 0
+}
+
+Simplified Result Summary:
+Parental Perception: May need more information on personality development programs. Child's Personality Tendency: Primarily **OPENNESS**. Preferred Learning Style: Strong inclination towards **CONCRETE PRACTICAL** learning. Also shows strengths in **AUDITORY** approaches. Recommended Development Approach: Consider programs that emphasize hands-on activities and real-life applications by utilizing auditory methods and kinesthetic activities.
+
+Submission Date: 16/8/2025, 1:09:35 pm
+Student Name: Tharun
+Age: 17
+
+Quiz Responses:
+Q: What factors would influence your decision to enroll your child in  personality development classes?
+  A: Cost
+
+Scores:
+{
+  "familiarity": 0,
+  "exposure": 0,
+  "importance": 0,
+  "belief": 0,
+  "investment_belief": 0,
+  "likelihood_to_invest": 0,
+  "prioritization": 0,
+  "positive_impact_belief": 0,
+  "necessity_belief": 0,
+  "influencing_factors": 1,
+  "extraversion": 0,
+  "agreeableness": 0,
+  "conscientiousness": 0,
+  "neuroticism": 0,
+  "openness": 0,
+  "social_verbal": 0,
+  "independent": 0,
+  "kinesthetic": 0,
+  "visual": 0,
+  "auditory": 0,
+  "active_experimentation": 0,
+  "situated_learning": 0,
+  "abstract_conceptualization": 0,
+  "sequential_thinking": 0,
+  "global_thinking": 0,
+  "analytical_thinking": 0,
+  "narrative_learning": 0,
+  "stability": 0,
+  "environmental_influence": 0,
+  "flexibility": 0,
+  "trait_influence": 0,
+  "abstract_theoretical": 0,
+  "concrete_practical": 0,
+  "reflective": 0,
+  "active": 0
+}
+
+Simplified Result Summary:
+Parental Perception: May need more information on personality development programs. Child's Personality Tendency: A balanced blend of traits. Preferred Learning Style: Adaptable and shows no single dominant style. Recommended Development Approach: Consider programs that offer a balanced and adaptable learning environment.
+
+Submission Date: 16/8/2025, 6:10:32 pm

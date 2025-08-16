@@ -49,9 +49,13 @@ try {
   // Show build output size
   const buildDir = path.join(process.cwd(), '.next');
   if (fs.existsSync(buildDir)) {
-    const stats = fs.statSync(buildDir);
-    const sizeInMB = (stats.size / (1024 * 1024)).toFixed(2);
-    console.log(`📁 Build directory size: ${sizeInMB} MB`);
+    try {
+      const stats = fs.statSync(buildDir);
+      const sizeInMB = (stats.size / (1024 * 1024)).toFixed(2);
+      console.log(`📁 Build directory size: ${sizeInMB} MB`);
+    } catch (error) {
+      console.log('📁 Build directory size: Unable to calculate');
+    }
   }
   
   console.log('\n🚀 To start the production server:');

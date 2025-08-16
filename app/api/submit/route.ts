@@ -1,10 +1,8 @@
-import { PrismaClient } from '@prisma/client';
 import { NextResponse } from 'next/server';
 import fs from 'fs/promises';
 import path from 'path';
 import nodemailer from 'nodemailer';
-
-const prisma = new PrismaClient();
+import { prisma } from '../../../lib/prisma';
 
 // Maps Likert scale responses to numerical values
 const likertScaleMapping: { [key: string]: number } = {

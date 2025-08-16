@@ -65,9 +65,6 @@ const nextConfig: NextConfig = {
     return config;
   },
   
-  // Output configuration
-  output: 'standalone',
-  
   // Headers for better caching and security
   async headers() {
     return [
