@@ -21,6 +21,7 @@
     "@mui/material-nextjs": "^7.3.0",
     "framer-motion": "^12.23.12",
     "next": "15.4.6",
+    "nodemailer": "^7.0.5",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
@@ -28,6 +29,7 @@
     "@next/bundle-analyzer": "^15.4.6",
     "@svgr/webpack": "^8.1.0",
     "@types/node": "^20.11.30",
+    "@types/nodemailer": "^7.0.1",
     "@types/react": "^18.2.67",
     "@types/react-dom": "^18.2.22",
     "cross-env": "^7.0.3",
