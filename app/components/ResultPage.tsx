@@ -1,109 +1,21 @@
-import React, { useState, useEffect } from 'react';
-import { Box, Typography, Button, Container, CircularProgress } from '@mui/material';
+import React from 'react';
+import { Box, Typography, Button, Container } from '@mui/material';
 import { motion, Variants } from 'framer-motion';
+import { PersonalityResult } from '../types/quiz';
+import { getTraitName, getTraitDescription } from '../utils/quizAnalyzer';
 
 interface ResultPageProps {
-  submissionId: number;
+  name: string;
+  age: number;
+  result: PersonalityResult;
   onRetest: () => void;
 }
 
-interface SubmissionData {
-  name: string;
-  age: number;
-  scores: string;
-  dominantType: string;
-  calculationLog: string;
-}
-
-const ResultPage: React.FC<ResultPageProps> = ({ submissionId, onRetest }) => {
-  const [submissionData, setSubmissionData] = useState<SubmissionData | null>(null);
-  const [loading, setLoading] = useState<boolean>(true);
-  const [error, setError] = useState<string | null>(null);
-  const [pdfLoading, setPdfLoading] = useState<boolean>(false);
-
+const ResultPage: React.FC<ResultPageProps> = ({ name, age, result, onRetest }) => {
   const containerVariants: Variants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } },
   };
-
-  useEffect(() => {
-    const fetchSubmission = async () => {
-      try {
-        setLoading(true);
-        const res = await fetch(`/api/submission?submissionId=${submissionId}`);
-        if (!res.ok) {
-          throw new Error(`Error: ${res.status}`);
-        }
-        const data: SubmissionData = await res.json();
-        setSubmissionData(data);
-        setLoading(false);
-      } catch (err: unknown) {
-        const error = err instanceof Error ? err : new Error('Unknown error occurred');
-        console.error('Failed to fetch submission data:', error);
-        setError(`Failed to load results: ${error.message}`);
-        setLoading(false);
-      }
-    };
-    fetchSubmission();
-  }, [submissionId]);
-
-  const handleDownloadPdf = async () => {
-    setPdfLoading(true);
-    try {
-      const res = await fetch(`/api/pdf?submissionId=${submissionId}`);
-      if (!res.ok) {
-        throw new Error(`Error: ${res.status}`);
-      }
-      const blob = await res.blob();
-      const url = window.URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = `personality_test_results_${submissionData?.name || 'result'}.pdf`;
-      document.body.appendChild(a);
-      a.click();
-      a.remove();
-      window.URL.revokeObjectURL(url);
-    } catch (err: unknown) {
-      const error = err instanceof Error ? err : new Error('Unknown error occurred');
-      console.error('Failed to download PDF:', error);
-      alert(`Failed to download PDF: ${error.message}`);
-    } finally {
-      setPdfLoading(false);
-    }
-  };
-
-  if (loading) {
-    return (
-      <Container maxWidth="md" sx={{ textAlign: 'center', mt: 8, mb: 8 }}>
-        <CircularProgress color="primary" size={60} />
-        <Typography variant="h6" sx={{ mt: 2 }}>Loading Results...</Typography>
-      </Container>
-    );
-  }
-
-  if (error) {
-    return (
-      <Container maxWidth="md" sx={{ textAlign: 'center', mt: 8, mb: 8 }}>
-        <Typography variant="h5" color="error">Error: {error}</Typography>
-        <Button variant="contained" color="primary" onClick={onRetest} sx={{ mt: 3 }}>
-          Retest
-        </Button>
-      </Container>
-    );
-  }
-
-  if (!submissionData) {
-    return (
-      <Container maxWidth="md" sx={{ textAlign: 'center', mt: 8, mb: 8 }}>
-        <Typography variant="h6">No results found for this submission.</Typography>
-        <Button variant="contained" color="primary" onClick={onRetest} sx={{ mt: 3 }}>
-          Retest
-        </Button>
-      </Container>
-    );
-  }
-
-  const scoresObj = JSON.parse(submissionData.scores);
 
   return (
     <Container maxWidth="md" sx={{ textAlign: 'center', mt: 8, mb: 8 }}>
@@ -121,32 +33,76 @@ const ResultPage: React.FC<ResultPageProps> = ({ submissionId, onRetest }) => {
           }}
         >
           <Typography variant="h4" gutterBottom color="primary">
-            Quiz Results for {submissionData.name}
+            Personality Development Profile
           </Typography>
+          
           <Typography variant="h6" color="text.secondary" gutterBottom>
-            Age: {submissionData.age}
+            {name}, Age: {age}
           </Typography>
+
           <Typography variant="body1" paragraph sx={{ mt: 3, mb: 4, fontStyle: 'italic', color: 'primary.dark' }}>
-            Congratulations on completing the survey! Your insights are invaluable for understanding and improving personality development programs for children.
+            Thank you for completing the personality assessment. Here's an insight into your personality traits and areas for potential growth.
           </Typography>
+
           <Box sx={{ my: 4, textAlign: 'left' }}>
-            <Typography variant="h5" gutterBottom sx={{ textDecoration: 'underline' }}>
-              Your Parental Perception Insight:
+            <Typography variant="h5" gutterBottom sx={{ color: 'primary.main' }}>
+              Dominant Trait: {getTraitName(result.dominantTrait)}
             </Typography>
-            <Typography variant="body1" paragraph>
-              {submissionData.dominantType}
+            <Typography variant="body1" paragraph sx={{ color: 'text.secondary' }}>
+              {getTraitDescription(result.dominantTrait)}
             </Typography>
           </Box>
 
           <Box sx={{ my: 4, textAlign: 'left' }}>
-            <Typography variant="h5" gutterBottom sx={{ textDecoration: 'underline' }}>
-              Detailed Scores:
+            <Typography variant="h5" gutterBottom sx={{ color: 'primary.main' }}>
+              Your Personality Profile:
             </Typography>
-            {Object.entries(scoresObj).map(([key, value]) => (
-              <Typography key={key} variant="body2">
-                {key.replace(/_/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase())}: {String(value)}
-              </Typography>
+            {Object.entries(result.traits).map(([traitId, score]) => (
+              <Box key={traitId} sx={{ mb: 2 }}>
+                <Typography variant="subtitle1" sx={{ color: 'text.primary', fontWeight: 'medium' }}>
+                  {getTraitName(traitId)}
+                </Typography>
+                <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+                  <Box
+                    sx={{
+                      flex: 1,
+                      height: 10,
+                      bgcolor: 'background.default',
+                      borderRadius: 5,
+                      overflow: 'hidden',
+                    }}
+                  >
+                    <Box
+                      sx={{
+                        width: `${score}%`,
+                        height: '100%',
+                        bgcolor: 'primary.main',
+                        borderRadius: 5,
+                        transition: 'width 1s ease-in-out',
+                      }}
+                    />
+                  </Box>
+                  <Typography variant="body2" sx={{ minWidth: 40 }}>
+                    {score}%
+                  </Typography>
+                </Box>
+              </Box>
             ))}
+          </Box>
+
+          <Box sx={{ my: 4, textAlign: 'left', bgcolor: 'background.default', p: 3, borderRadius: 2 }}>
+            <Typography variant="h5" gutterBottom sx={{ color: 'primary.main' }}>
+              Suggested Development Areas:
+            </Typography>
+            <ul style={{ paddingLeft: '20px' }}>
+              {result.suggestions.map((suggestion, index) => (
+                <li key={index}>
+                  <Typography variant="body1" paragraph>
+                    {suggestion}
+                  </Typography>
+                </li>
+              ))}
+            </ul>
           </Box>
 
           <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2, mt: 4 }}>
@@ -155,31 +111,43 @@ const ResultPage: React.FC<ResultPageProps> = ({ submissionId, onRetest }) => {
               whileHover={{ scale: 1.05 }}
               variant="contained"
               color="primary"
-              size="large"
               onClick={onRetest}
               sx={{
                 px: 4,
                 py: 1.2,
               }}
             >
-              Retest
+              Take Quiz Again
             </Button>
             <Button
               component={motion.button}
-              whileHover={{ scale: 1.05, boxShadow: '0px 6px 15px rgba(0, 0, 0, 0.2)' }}
+              whileHover={{ scale: 1.05 }}
               variant="outlined"
               color="secondary"
-              size="large"
-              onClick={handleDownloadPdf}
-              disabled={pdfLoading}
-              sx={{
-                px: 4,
-                py: 1.2,
+              sx={{ px: 4, py: 1.2 }}
+              onClick={() => window.print()}
+            >
+              Download PDF
+            </Button>
+            <Button
+              component={motion.button}
+              whileHover={{ scale: 1.05 }}
+              variant="outlined"
+              color="secondary"
+              sx={{ px: 4, py: 1.2 }}
+              onClick={() => {
+                const mailto = `mailto:host@example.com?subject=Personality Quiz Result for ${name}&body=Name: ${name}%0AAge: ${age}%0AResult: ${JSON.stringify(result, null, 2)}`;
+                window.location.href = mailto;
               }}
             >
-              {pdfLoading ? <CircularProgress size={24} color="inherit" /> : 'Download PDF'}
+              Share via Email
             </Button>
           </Box>
+
+          <Typography variant="body2" color="text.secondary" sx={{ mt: 4, fontStyle: 'italic' }}>
+            Remember: This assessment is a snapshot of your current traits and tendencies.
+            Personal growth is a journey, and these insights can help guide your development path.
+          </Typography>
         </Box>
       </motion.div>
     </Container>

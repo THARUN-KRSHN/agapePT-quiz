@@ -1,52 +1,70 @@
-"use client";
+'use client';
 
-import React, { useState } from "react";
-import LandingPage from "./components/LandingPage";
-import NameAgeCollection from "./components/NameAgeCollection";
-import QuizLayout from "./components/QuizLayout";
-import ResultPage from "./components/ResultPage";
-import { Box } from '@mui/material';
+import React, { useState } from 'react';
+import LandingPage from './components/LandingPage';
+import NameAgeCollection from './components/NameAgeCollection';
+import QuizLayout from './components/QuizLayout';
+import ResultPage from './components/ResultPage';
+import { PersonalityResult } from './types/quiz';
 
-type AppState = "landing" | "nameAge" | "quiz" | "result";
+type QuizStage = 'landing' | 'info' | 'quiz' | 'result';
 
 export default function Home() {
-  const [appState, setAppState] = useState<AppState>("landing");
-  const [userName, setUserName] = useState<string>('');
-  const [userAge, setUserAge] = useState<number>(0);
-  const [submissionId, setSubmissionId] = useState<number | null>(null);
+  const [stage, setStage] = useState<QuizStage>('landing');
+  const [name, setName] = useState<string>('');
+  const [age, setAge] = useState<number>(0);
+  const [result, setResult] = useState<PersonalityResult | null>(null);
 
-  const handleStartTest = () => {
-    setAppState("nameAge");
+  const handleStart = () => {
+    setStage('info');
   };
 
-  const handleNameAgeSubmit = (name: string, age: number) => {
-    setUserName(name);
-    setUserAge(age);
-    setAppState("quiz");
+  const handleInfoSubmit = (name: string, age: number) => {
+    setName(name);
+    setAge(age);
+    setStage('quiz');
   };
 
-  const handleQuizComplete = (id: number) => {
-    setSubmissionId(id);
-    setAppState("result");
+  const handleQuizComplete = async (result: PersonalityResult) => {
+    setResult(result);
+    setStage('result');
+    try {
+      await fetch('/api/sendResult', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, age, result }),
+      });
+    } catch (error) {
+      // Optionally handle error (e.g., show notification)
+    }
   };
 
   const handleRetest = () => {
-    setAppState("landing");
-    setUserName('');
-    setUserAge(0);
-    setSubmissionId(null);
+    setStage('landing');
+    setResult(null);
+    setName('');
+    setAge(0);
   };
 
   return (
-    <Box sx={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', bgcolor: 'background.default' }}>
-      {appState === "landing" && <LandingPage onStartQuiz={handleStartTest} />}
-      {appState === "nameAge" && <NameAgeCollection onStartQuiz={handleNameAgeSubmit} />}
-      {appState === "quiz" && (
-        <QuizLayout name={userName} age={userAge} onQuizComplete={handleQuizComplete} />
+    <main>
+      {stage === 'landing' && <LandingPage onStartQuiz={handleStart} />}
+      {stage === 'info' && <NameAgeCollection onSubmit={handleInfoSubmit} />}
+      {stage === 'quiz' && (
+        <QuizLayout
+          name={name}
+          age={age}
+          onQuizComplete={handleQuizComplete}
+        />
       )}
-      {appState === "result" && submissionId && (
-        <ResultPage submissionId={submissionId} onRetest={handleRetest} />
+      {stage === 'result' && result && (
+        <ResultPage
+          name={name}
+          age={age}
+          result={result}
+          onRetest={handleRetest}
+        />
       )}
-    </Box>
+    </main>
   );
 }

@@ -3,10 +3,10 @@ import { Box, Typography, TextField, Button, Container } from '@mui/material';
 import { motion, Variants } from 'framer-motion';
 
 interface NameAgeCollectionProps {
-  onStartQuiz: (name: string, age: number) => void;
+  onSubmit: (name: string, age: number) => void;
 }
 
-const NameAgeCollection: React.FC<NameAgeCollectionProps> = ({ onStartQuiz }) => {
+const NameAgeCollection: React.FC<NameAgeCollectionProps> = ({ onSubmit }) => {
   const [name, setName] = useState<string>('');
   const [age, setAge] = useState<string>('');
 
@@ -18,7 +18,7 @@ const NameAgeCollection: React.FC<NameAgeCollectionProps> = ({ onStartQuiz }) =>
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault();
     if (name.trim() && parseInt(age) > 0) {
-      onStartQuiz(name.trim(), parseInt(age));
+      onSubmit(name.trim(), parseInt(age));
     } else {
       alert('Please enter a valid name and age.');
     }

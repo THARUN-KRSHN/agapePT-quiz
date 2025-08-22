@@ -1,28 +1,20 @@
 import React, { useState, useEffect } from 'react';
-import { Box, Typography, Button, Container, LinearProgress, RadioGroup, FormControlLabel, Radio, CircularProgress } from '@mui/material';
+import { Box, Typography, Button, Container, LinearProgress, RadioGroup, FormControlLabel, Radio } from '@mui/material';
 import { motion, AnimatePresence } from 'framer-motion';
-
-interface Question {
-  id: number;
-  text: string;
-  options: string[];
-  category: string;
-  type: string;
-}
+import { Question, QuizResponse, PersonalityResult } from '../types/quiz';
+import { questions as defaultQuestions } from '../data/questions';
+import { analyzeQuizResponses } from '../utils/quizAnalyzer';
 
 interface QuizLayoutProps {
   name: string;
   age: number;
-  onQuizComplete: (submissionId: number) => void;
+  onQuizComplete: (result: PersonalityResult) => void;
 }
 
 const QuizLayout: React.FC<QuizLayoutProps> = ({ name, age, onQuizComplete }) => {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
-  const [responses, setResponses] = useState<{ questionId: number; response: string }[]>([]);
-  const [loading, setLoading] = useState<boolean>(true);
-  const [submitting, setSubmitting] = useState<boolean>(false);
-  const [error, setError] = useState<string | null>(null);
+  const [responses, setResponses] = useState<QuizResponse[]>([]);
 
   const questionVariants = {
     enter: { opacity: 0, x: 50 },
@@ -31,66 +23,31 @@ const QuizLayout: React.FC<QuizLayoutProps> = ({ name, age, onQuizComplete }) =>
   };
 
   useEffect(() => {
-    const fetchQuestions = async () => {
-      try {
-        setLoading(true);
-        const res = await fetch('/api/questions');
-        if (!res.ok) {
-          throw new Error(`Error: ${res.status}`);
-        }
-        const data: Question[] = await res.json();
-        setQuestions(data);
-        setLoading(false);
-      } catch (err: unknown) {
-        const error = err instanceof Error ? err : new Error('Unknown error occurred');
-        console.error('Failed to fetch questions:', error);
-        setError(`Failed to load quiz: ${error.message}`);
-        setLoading(false);
-      }
-    };
-    fetchQuestions();
+    // Shuffle questions on component mount
+    const shuffledQuestions = [...defaultQuestions]
+      .sort(() => Math.random() - 0.5);
+    setQuestions(shuffledQuestions);
   }, []);
 
-  const handleOptionChange = (questionId: number, response: string) => {
+  const handleOptionChange = (questionId: number, selectedOptionIndex: number) => {
     setResponses((prevResponses) => {
       const existingResponseIndex = prevResponses.findIndex(r => r.questionId === questionId);
       if (existingResponseIndex > -1) {
         const updatedResponses = [...prevResponses];
-        updatedResponses[existingResponseIndex] = { questionId, response };
+        updatedResponses[existingResponseIndex] = { questionId, selectedOptionIndex };
         return updatedResponses;
       } else {
-        return [...prevResponses, { questionId, response }];
+        return [...prevResponses, { questionId, selectedOptionIndex }];
       }
     });
   };
 
-  const handleNext = async () => {
+  const handleNext = () => {
     if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
     } else {
-      setSubmitting(true);
-      try {
-        const res = await fetch('/api/submit', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ name, age, responses }),
-        });
-
-        if (!res.ok) {
-          throw new Error(`Error: ${res.status}`);
-        }
-
-        const result = await res.json();
-        onQuizComplete(result.submissionId);
-      } catch (err: unknown) {
-        const error = err instanceof Error ? err : new Error('Unknown error occurred');
-        console.error('Failed to submit quiz:', error);
-        setError(`Failed to submit quiz: ${error.message}`);
-      } finally {
-        setSubmitting(false);
-      }
+      const result = analyzeQuizResponses(questions, responses);
+      onQuizComplete(result);
     }
   };
 
@@ -102,52 +59,32 @@ const QuizLayout: React.FC<QuizLayoutProps> = ({ name, age, onQuizComplete }) =>
 
   const getCurrentResponse = (questionId: number) => {
     const found = responses.find(r => r.questionId === questionId);
-    return found ? found.response : '';
+    return found ? found.selectedOptionIndex : -1;
   };
 
   const motivationalMessages = [
-    "Your dedication to your child's growth is truly inspiring!",
-    "Every thought you share helps us create better programs for children.",
-    "Thank you for investing your time in this important survey.",
-    "Your valuable input shapes the future of personality development for kids.",
-    "Together, we can empower the next generation!",
+    "Your journey of self-discovery is inspiring!",
+    "Every answer brings you closer to understanding yourself better.",
+    "Thank you for taking time for personal growth.",
+    "Your insights are valuable for your development journey.",
+    "Keep going - self-awareness is the key to growth!",
   ];
 
   const funFactsOrTips = [
-    "Did you know? Emotional intelligence in children can be a stronger predictor of future success than IQ.",
-    "Tip: Encouraging creative play can significantly boost a child's problem-solving skills and imagination.",
-    "Fact: Children who participate in extracurricular activities often develop better social skills and self-confidence.",
-    "Tip: Reading to your child daily not only enhances their vocabulary but also strengthens your bond and emotional connection.",
-    "Did you know? Positive affirmations can help build a child's self-esteem and resilience from a young age.",
+    "Did you know? Personality traits can evolve throughout your life.",
+    "Tip: Self-reflection is a powerful tool for personal growth.",
+    "Fact: Understanding your personality can improve your relationships and decision-making.",
+    "Tip: There are no 'right' or 'wrong' personality traits - each has its own strengths!",
+    "Did you know? Regular self-assessment can help track your personal development journey.",
   ];
 
   const currentQuestion = questions[currentQuestionIndex];
   const progress = (currentQuestionIndex / (questions.length - 1)) * 100;
 
-  if (loading) {
-    return (
-      <Container maxWidth="md" sx={{ textAlign: 'center', mt: 8, mb: 8 }}>
-        <CircularProgress color="primary" size={60} />
-        <Typography variant="h6" sx={{ mt: 2 }}>Loading Quiz...</Typography>
-      </Container>
-    );
-  }
-
-  if (error) {
-    return (
-      <Container maxWidth="md" sx={{ textAlign: 'center', mt: 8, mb: 8 }}>
-        <Typography variant="h5" color="error">Error: {error}</Typography>
-        <Button variant="contained" color="primary" onClick={() => window.location.reload()} sx={{ mt: 3 }}>
-          Retry
-        </Button>
-      </Container>
-    );
-  }
-
   if (!questions.length) {
     return (
       <Container maxWidth="md" sx={{ textAlign: 'center', mt: 8, mb: 8 }}>
-        <Typography variant="h6">No questions available.</Typography>
+        <Typography variant="h6">Preparing your personality assessment...</Typography>
       </Container>
     );
   }
@@ -156,7 +93,7 @@ const QuizLayout: React.FC<QuizLayoutProps> = ({ name, age, onQuizComplete }) =>
     <Container maxWidth="md" sx={{ mt: 8, mb: 8 }}>
       <AnimatePresence mode="wait">
         <motion.div
-          key={currentQuestionIndex} // Key ensures re-render and animation on index change
+          key={currentQuestionIndex}
           initial="enter"
           animate="center"
           exit="exit"
@@ -180,37 +117,20 @@ const QuizLayout: React.FC<QuizLayoutProps> = ({ name, age, onQuizComplete }) =>
               {currentQuestion.text}
             </Typography>
 
-            {currentQuestion.type === 'influencing_factors' ? (
-              <RadioGroup
-                value={getCurrentResponse(currentQuestion.id)}
-                onChange={(e) => handleOptionChange(currentQuestion.id, e.target.value)}
-                sx={{ mt: 3 }}
-              >
-                {currentQuestion.options.map((option: string, optionIndex: number) => (
-                  <FormControlLabel
-                    key={optionIndex}
-                    value={option}
-                    control={<Radio />}
-                    label={option}
-                  />
-                ))}
-              </RadioGroup>
-            ) : (
-              <RadioGroup
-                value={getCurrentResponse(currentQuestion.id)}
-                onChange={(e) => handleOptionChange(currentQuestion.id, e.target.value)}
-                sx={{ mt: 3 }}
-              >
-                {currentQuestion.options.map((option: string, optionIndex: number) => (
-                  <FormControlLabel
-                    key={optionIndex}
-                    value={option}
-                    control={<Radio />}
-                    label={option}
-                  />
-                ))}
-              </RadioGroup>
-            )}
+            <RadioGroup
+              value={getCurrentResponse(currentQuestion.id)}
+              onChange={(e) => handleOptionChange(currentQuestion.id, parseInt(e.target.value))}
+              sx={{ mt: 3 }}
+            >
+              {currentQuestion.traitScores.map((option, optionIndex: number) => (
+                <FormControlLabel
+                  key={optionIndex}
+                  value={optionIndex.toString()}
+                  control={<Radio />}
+                  label={option.text}
+                />
+              ))}
+            </RadioGroup>
 
             <Box sx={{ display: 'flex', justifyContent: 'space-between', mt: 4 }}>
               <Button
@@ -219,7 +139,7 @@ const QuizLayout: React.FC<QuizLayoutProps> = ({ name, age, onQuizComplete }) =>
                 variant="outlined"
                 color="secondary"
                 onClick={handlePrevious}
-                disabled={currentQuestionIndex === 0 || submitting}
+                disabled={currentQuestionIndex === 0}
                 sx={{
                   px: 4,
                   py: 1.2,
@@ -233,13 +153,13 @@ const QuizLayout: React.FC<QuizLayoutProps> = ({ name, age, onQuizComplete }) =>
                 variant="contained"
                 color="primary"
                 onClick={handleNext}
-                disabled={submitting}
+                disabled={getCurrentResponse(currentQuestion.id) === -1}
                 sx={{
                   px: 4,
                   py: 1.2,
                 }}
               >
-                {currentQuestionIndex === questions.length - 1 ? (submitting ? <CircularProgress size={24} color="inherit" /> : 'Submit Quiz') : 'Next'}
+                {currentQuestionIndex === questions.length - 1 ? 'Complete Quiz' : 'Next'}
               </Button>
             </Box>
 
@@ -247,14 +167,12 @@ const QuizLayout: React.FC<QuizLayoutProps> = ({ name, age, onQuizComplete }) =>
               {motivationalMessages[Math.floor(Math.random() * motivationalMessages.length)]}
             </Typography>
             
-            {/* Side engagement element */}
             <Box sx={{ mt: 4, p: 2, bgcolor: 'background.default', borderRadius: '8px', border: '1px dashed', borderColor: 'secondary.main' }}>
               <Typography variant="body2" color="text.primary" fontWeight="bold">Fun Fact / Tip:</Typography>
               <Typography variant="body2" color="text.secondary">
                 {funFactsOrTips[Math.floor(Math.random() * funFactsOrTips.length)]}
               </Typography>
             </Box>
-
           </Box>
         </motion.div>
       </AnimatePresence>
