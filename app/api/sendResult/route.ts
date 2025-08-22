@@ -25,6 +25,12 @@ export async function POST(req: NextRequest) {
     await transporter.sendMail(mailOptions);
     return NextResponse.json({ success: true });
   } catch (error) {
-    return NextResponse.json({ success: false, error: error.message }, { status: 500 });
+    let errorMessage = 'Unknown error';
+    if (error instanceof Error) {
+      errorMessage = error.message;
+    } else if (typeof error === 'string') {
+      errorMessage = error;
+    }
+    return NextResponse.json({ success: false, error: errorMessage }, { status: 500 });
   }
 }

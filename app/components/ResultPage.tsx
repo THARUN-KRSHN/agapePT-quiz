@@ -41,7 +41,7 @@ const ResultPage: React.FC<ResultPageProps> = ({ name, age, result, onRetest }) 
           </Typography>
 
           <Typography variant="body1" paragraph sx={{ mt: 3, mb: 4, fontStyle: 'italic', color: 'primary.dark' }}>
-            Thank you for completing the personality assessment. Here's an insight into your personality traits and areas for potential growth.
+            Thank you for completing the personality assessment. Here&#39;s an insight into your personality traits and areas for potential growth.
           </Typography>
 
           <Box sx={{ my: 4, textAlign: 'left' }}>

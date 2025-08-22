@@ -4,27 +4,62 @@ export const personalityTraits: PersonalityTrait[] = [
   {
     id: 'openness',
     name: 'Openness to Experience',
-    description: 'Reflects curiosity, creativity, and preference for variety and novelty.'
+    description: 'Reflects curiosity, creativity, and preference for variety and novelty.',
+    suggestions: [
+      'Try new activities or hobbies regularly',
+      'Read diverse genres of books or articles',
+      'Engage in creative activities',
+      'Travel to new places when possible',
+      'Learn about different cultures and perspectives'
+    ]
   },
   {
     id: 'conscientiousness',
     name: 'Conscientiousness',
-    description: 'Indicates organization, responsibility, and goal-oriented behavior.'
+    description: 'Indicates organization, responsibility, and goal-oriented behavior.',
+    suggestions: [
+      'Develop a daily routine and stick to it',
+      'Break large tasks into smaller, manageable steps',
+      'Use planning tools and calendars',
+      'Set specific, measurable goals',
+      'Practice time management techniques'
+    ]
   },
   {
     id: 'extraversion',
     name: 'Extraversion',
-    description: 'Represents sociability, energy, and tendency to seek stimulation in others\'s company.'
+    description: 'Represents sociability, energy, and tendency to seek stimulation in others\'s company.',
+    suggestions: [
+      'Join social groups or clubs aligned with your interests',
+      'Practice initiating conversations',
+      'Participate in group activities',
+      'Balance social time with alone time',
+      'Take small steps to be more outgoing'
+    ]
   },
   {
     id: 'agreeableness',
     name: 'Agreeableness',
-    description: 'Shows compassion, cooperation, and consideration for others.'
+    description: 'Shows compassion, cooperation, and consideration for others.',
+    suggestions: [
+      'Practice active listening skills',
+      'Volunteer for community service',
+      'Show empathy in daily interactions',
+      'Practice conflict resolution skills',
+      'Express gratitude regularly'
+    ]
   },
   {
     id: 'emotional_stability',
     name: 'Emotional Stability',
-    description: 'Reflects emotional regulation, resilience, and stress management.'
+    description: 'Reflects emotional regulation, resilience, and stress management.',
+    suggestions: [
+      'Develop stress management techniques',
+      'Practice mindfulness or meditation',
+      'Maintain a regular exercise routine',
+      'Keep a mood journal',
+      'Learn relaxation techniques'
+    ]
   }
 ];
 
